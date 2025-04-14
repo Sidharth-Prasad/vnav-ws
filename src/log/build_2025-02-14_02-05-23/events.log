@@ -1,0 +1,121 @@
+[0.000000] (-) TimerEvent: {}
+[0.011538] (two_drones_pkg) JobQueued: {'identifier': 'two_drones_pkg', 'dependencies': OrderedDict()}
+[0.011677] (two_drones_pkg) JobStarted: {'identifier': 'two_drones_pkg'}
+[0.047131] (two_drones_pkg) JobProgress: {'identifier': 'two_drones_pkg', 'progress': 'cmake'}
+[0.065340] (two_drones_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/zengine/vnav_ws/src/two_drones_pkg', '-DCMAKE_INSTALL_PREFIX=/home/zengine/vnav_ws/src/install/two_drones_pkg'], 'cwd': '/home/zengine/vnav_ws/src/build/two_drones_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zengine'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zengine'), ('OLDPWD', '/home/zengine/vnav_ws/src/two_drones_pkg'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2308'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zengine'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zengine'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zengine-Legion-T7-34IAZ7:@/tmp/.ICE-unix/2279,unix/zengine-Legion-T7-34IAZ7:/tmp/.ICE-unix/2279'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5488c8ab_e30c_4b5a_99ae_44b230636224'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.K0PT12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.271'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zengine/vnav_ws/src/build/two_drones_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099911] (-) TimerEvent: {}
+[0.200128] (-) TimerEvent: {}
+[0.225797] (two_drones_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300218] (-) TimerEvent: {}
+[0.400480] (-) TimerEvent: {}
+[0.500892] (-) TimerEvent: {}
+[0.511791] (two_drones_pkg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.600989] (-) TimerEvent: {}
+[0.636896] (two_drones_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.701109] (-) TimerEvent: {}
+[0.801357] (-) TimerEvent: {}
+[0.804654] (two_drones_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.812025] (two_drones_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.867797] (two_drones_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.901465] (-) TimerEvent: {}
+[0.952781] (two_drones_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.980916] (two_drones_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.001523] (-) TimerEvent: {}
+[1.079470] (two_drones_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.081238] (two_drones_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.101603] (-) TimerEvent: {}
+[1.201796] (-) TimerEvent: {}
+[1.235237] (two_drones_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.301907] (-) TimerEvent: {}
+[1.362709] (two_drones_pkg) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.380095] (two_drones_pkg) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[1.402002] (-) TimerEvent: {}
+[1.421230] (two_drones_pkg) StdoutLine: {'line': b'-- Found tf2: 0.25.11 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.452441] (two_drones_pkg) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.11 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.502117] (-) TimerEvent: {}
+[1.602347] (-) TimerEvent: {}
+[1.702564] (-) TimerEvent: {}
+[1.716124] (two_drones_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.755345] (two_drones_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.759095] (two_drones_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/zengine/vnav_ws/src/build/two_drones_pkg\n'}
+[1.764296] (two_drones_pkg) CommandEnded: {'returncode': 0}
+[1.764620] (two_drones_pkg) JobProgress: {'identifier': 'two_drones_pkg', 'progress': 'build'}
+[1.764981] (two_drones_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zengine/vnav_ws/src/build/two_drones_pkg', '--', '-j20', '-l20'], 'cwd': '/home/zengine/vnav_ws/src/build/two_drones_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zengine'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zengine'), ('OLDPWD', '/home/zengine/vnav_ws/src/two_drones_pkg'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2308'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zengine'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zengine'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zengine-Legion-T7-34IAZ7:@/tmp/.ICE-unix/2279,unix/zengine-Legion-T7-34IAZ7:/tmp/.ICE-unix/2279'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5488c8ab_e30c_4b5a_99ae_44b230636224'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.K0PT12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.271'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zengine/vnav_ws/src/build/two_drones_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.802704] (-) TimerEvent: {}
+[1.846263] (two_drones_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target frames_publisher_node\x1b[0m\n'}
+[1.846762] (two_drones_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target plots_publisher_node\x1b[0m\n'}
+[1.856812] (two_drones_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/frames_publisher_node.dir/src/frames_publisher_node.cpp.o\x1b[0m\n'}
+[1.857477] (two_drones_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/plots_publisher_node.dir/src/plots_publisher_node.cpp.o\x1b[0m\n'}
+[1.902742] (-) TimerEvent: {}
+[2.002982] (-) TimerEvent: {}
+[2.103251] (-) TimerEvent: {}
+[2.203498] (-) TimerEvent: {}
+[2.303720] (-) TimerEvent: {}
+[2.403986] (-) TimerEvent: {}
+[2.504266] (-) TimerEvent: {}
+[2.604490] (-) TimerEvent: {}
+[2.704730] (-) TimerEvent: {}
+[2.804976] (-) TimerEvent: {}
+[2.905221] (-) TimerEvent: {}
+[3.005506] (-) TimerEvent: {}
+[3.105775] (-) TimerEvent: {}
+[3.206081] (-) TimerEvent: {}
+[3.302534] (two_drones_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zengine/vnav_ws/src/two_drones_pkg/src/frames_publisher_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.302723] (two_drones_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zengine/vnav_ws/src/two_drones_pkg/src/frames_publisher_node.cpp:123:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatement is a reference, not call, to function \xe2\x80\x98\x1b[01m\x1b[Krclcpp::shutdown\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress\x07-Waddress\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.302796] (two_drones_pkg) StderrLine: {'line': b'  123 |   \x1b[01;35m\x1b[Krclcpp::shutdown\x1b[m\x1b[K;\n'}
+[3.302856] (two_drones_pkg) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[3.302912] (two_drones_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zengine/vnav_ws/src/two_drones_pkg/src/frames_publisher_node.cpp:123:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatement has no effect [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.306136] (-) TimerEvent: {}
+[3.406344] (-) TimerEvent: {}
+[3.506609] (-) TimerEvent: {}
+[3.606895] (-) TimerEvent: {}
+[3.707171] (-) TimerEvent: {}
+[3.807510] (-) TimerEvent: {}
+[3.907790] (-) TimerEvent: {}
+[4.008006] (-) TimerEvent: {}
+[4.108275] (-) TimerEvent: {}
+[4.208559] (-) TimerEvent: {}
+[4.308839] (-) TimerEvent: {}
+[4.367735] (two_drones_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable frames_publisher_node\x1b[0m\n'}
+[4.408942] (-) TimerEvent: {}
+[4.509213] (-) TimerEvent: {}
+[4.609474] (-) TimerEvent: {}
+[4.674016] (two_drones_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable plots_publisher_node\x1b[0m\n'}
+[4.709639] (-) TimerEvent: {}
+[4.809941] (-) TimerEvent: {}
+[4.910210] (-) TimerEvent: {}
+[5.010490] (-) TimerEvent: {}
+[5.110775] (-) TimerEvent: {}
+[5.211067] (-) TimerEvent: {}
+[5.292008] (two_drones_pkg) StdoutLine: {'line': b'[100%] Built target frames_publisher_node\n'}
+[5.302627] (two_drones_pkg) StdoutLine: {'line': b'[100%] Built target plots_publisher_node\n'}
+[5.311125] (-) TimerEvent: {}
+[5.331405] (two_drones_pkg) CommandEnded: {'returncode': 0}
+[5.353623] (two_drones_pkg) JobProgress: {'identifier': 'two_drones_pkg', 'progress': 'install'}
+[5.358233] (two_drones_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zengine/vnav_ws/src/build/two_drones_pkg'], 'cwd': '/home/zengine/vnav_ws/src/build/two_drones_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zengine'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zengine'), ('OLDPWD', '/home/zengine/vnav_ws/src/two_drones_pkg'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2308'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zengine'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zengine'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zengine-Legion-T7-34IAZ7:@/tmp/.ICE-unix/2279,unix/zengine-Legion-T7-34IAZ7:/tmp/.ICE-unix/2279'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5488c8ab_e30c_4b5a_99ae_44b230636224'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.K0PT12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.271'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zengine/vnav_ws/src/build/two_drones_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.362869] (two_drones_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.363142] (two_drones_pkg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.369118] (two_drones_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zengine/vnav_ws/src/install/two_drones_pkg/lib/two_drones_pkg/frames_publisher_node\n'}
+[5.369269] (two_drones_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zengine/vnav_ws/src/install/two_drones_pkg/lib/two_drones_pkg/plots_publisher_node\n'}
+[5.369691] (two_drones_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zengine/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/mesh/quadrotor.dae\n'}
+[5.370358] (two_drones_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zengine/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/launch/two_drones.launch.yaml\n'}
+[5.370685] (two_drones_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zengine/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/config/default.rviz\n'}
+[5.371026] (two_drones_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zengine/vnav_ws/src/install/two_drones_pkg/share/ament_index/resource_index/package_run_dependencies/two_drones_pkg\n'}
+[5.371261] (two_drones_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zengine/vnav_ws/src/install/two_drones_pkg/share/ament_index/resource_index/parent_prefix_path/two_drones_pkg\n'}
+[5.371532] (two_drones_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zengine/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/environment/ament_prefix_path.sh\n'}
+[5.371690] (two_drones_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zengine/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/environment/ament_prefix_path.dsv\n'}
+[5.371854] (two_drones_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zengine/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/environment/path.sh\n'}
+[5.372004] (two_drones_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zengine/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/environment/path.dsv\n'}
+[5.372152] (two_drones_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zengine/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/local_setup.bash\n'}
+[5.372310] (two_drones_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zengine/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/local_setup.sh\n'}
+[5.372460] (two_drones_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zengine/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/local_setup.zsh\n'}
+[5.372603] (two_drones_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zengine/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/local_setup.dsv\n'}
+[5.372649] (two_drones_pkg) StdoutLine: {'line': b'-- Symlinking: /home/zengine/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/package.dsv\n'}
+[5.378011] (two_drones_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zengine/vnav_ws/src/install/two_drones_pkg/share/ament_index/resource_index/packages/two_drones_pkg\n'}
+[5.378207] (two_drones_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zengine/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/cmake/two_drones_pkgConfig.cmake\n'}
+[5.378343] (two_drones_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zengine/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/cmake/two_drones_pkgConfig-version.cmake\n'}
+[5.378419] (two_drones_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zengine/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/package.xml\n'}
+[5.379382] (two_drones_pkg) CommandEnded: {'returncode': 0}
+[5.411197] (-) TimerEvent: {}
+[5.472011] (two_drones_pkg) JobEnded: {'identifier': 'two_drones_pkg', 'rc': 0}
+[5.472383] (-) EventReactorShutdown: {}

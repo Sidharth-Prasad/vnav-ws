@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zengine/vnav_ws/src/build/two_drones_pkg/frames_publisher_node" "/home/zengine/vnav_ws/src/build/two_drones_pkg/plots_publisher_node" "TARGETS" "frames_publisher_node" "plots_publisher_node" "DESTINATION" "lib/two_drones_pkg")

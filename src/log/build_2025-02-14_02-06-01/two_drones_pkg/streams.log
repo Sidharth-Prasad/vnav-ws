@@ -1,0 +1,32 @@
+[0.006s] Invoking command in '/home/zengine/vnav_ws/src/build/two_drones_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zengine/vnav_ws/src/build/two_drones_pkg -- -j20 -l20
+[0.032s] [35m[1mConsolidate compiler generated dependencies of target frames_publisher_node[0m
+[0.032s] [35m[1mConsolidate compiler generated dependencies of target plots_publisher_node[0m
+[0.041s] [ 25%] [32mBuilding CXX object CMakeFiles/frames_publisher_node.dir/src/frames_publisher_node.cpp.o[0m
+[0.041s] [ 75%] Built target plots_publisher_node
+[2.112s] [100%] [32m[1mLinking CXX executable frames_publisher_node[0m
+[2.218s] [100%] Built target frames_publisher_node
+[2.224s] Invoked command in '/home/zengine/vnav_ws/src/build/two_drones_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zengine/vnav_ws/src/build/two_drones_pkg -- -j20 -l20
+[2.229s] Invoking command in '/home/zengine/vnav_ws/src/build/two_drones_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zengine/vnav_ws/src/build/two_drones_pkg
+[2.232s] -- Install configuration: ""
+[2.232s] -- Execute custom install script
+[2.232s] -- Up-to-date symlink: /home/zengine/vnav_ws/src/install/two_drones_pkg/lib/two_drones_pkg/frames_publisher_node
+[2.233s] -- Up-to-date symlink: /home/zengine/vnav_ws/src/install/two_drones_pkg/lib/two_drones_pkg/plots_publisher_node
+[2.233s] -- Up-to-date symlink: /home/zengine/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/mesh/quadrotor.dae
+[2.233s] -- Up-to-date symlink: /home/zengine/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/launch/two_drones.launch.yaml
+[2.233s] -- Up-to-date symlink: /home/zengine/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/config/default.rviz
+[2.233s] -- Up-to-date symlink: /home/zengine/vnav_ws/src/install/two_drones_pkg/share/ament_index/resource_index/package_run_dependencies/two_drones_pkg
+[2.233s] -- Up-to-date symlink: /home/zengine/vnav_ws/src/install/two_drones_pkg/share/ament_index/resource_index/parent_prefix_path/two_drones_pkg
+[2.233s] -- Up-to-date symlink: /home/zengine/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/environment/ament_prefix_path.sh
+[2.233s] -- Up-to-date symlink: /home/zengine/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/environment/ament_prefix_path.dsv
+[2.233s] -- Up-to-date symlink: /home/zengine/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/environment/path.sh
+[2.233s] -- Up-to-date symlink: /home/zengine/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/environment/path.dsv
+[2.233s] -- Up-to-date symlink: /home/zengine/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/local_setup.bash
+[2.233s] -- Up-to-date symlink: /home/zengine/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/local_setup.sh
+[2.233s] -- Up-to-date symlink: /home/zengine/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/local_setup.zsh
+[2.233s] -- Up-to-date symlink: /home/zengine/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/local_setup.dsv
+[2.234s] -- Symlinking: /home/zengine/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/package.dsv
+[2.238s] -- Up-to-date symlink: /home/zengine/vnav_ws/src/install/two_drones_pkg/share/ament_index/resource_index/packages/two_drones_pkg
+[2.238s] -- Up-to-date symlink: /home/zengine/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/cmake/two_drones_pkgConfig.cmake
+[2.238s] -- Up-to-date symlink: /home/zengine/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/cmake/two_drones_pkgConfig-version.cmake
+[2.238s] -- Up-to-date symlink: /home/zengine/vnav_ws/src/install/two_drones_pkg/share/two_drones_pkg/package.xml
+[2.240s] Invoked command in '/home/zengine/vnav_ws/src/build/two_drones_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zengine/vnav_ws/src/build/two_drones_pkg
