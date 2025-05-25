@@ -1,0 +1,340 @@
+[0.169s] Invoking command in '/home/zengine/vnav_ws/src/build/tesse_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zengine/vnav_ws/src/lab3/lab3/tesse_msgs -DCMAKE_INSTALL_PREFIX=/home/zengine/vnav_ws/src/install/tesse_msgs
+[2.420s] -- The C compiler identification is GNU 11.4.0
+[3.061s] -- The CXX compiler identification is GNU 11.4.0
+[3.122s] -- Detecting C compiler ABI info
+[3.326s] -- Detecting C compiler ABI info - done
+[3.331s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.340s] -- Detecting C compile features
+[3.352s] -- Detecting C compile features - done
+[3.363s] -- Detecting CXX compiler ABI info
+[3.463s] -- Detecting CXX compiler ABI info - done
+[3.467s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.468s] -- Detecting CXX compile features
+[3.468s] -- Detecting CXX compile features - done
+[3.586s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.879s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.332s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[4.461s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.524s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.676s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.724s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.853s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.909s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[5.192s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.469s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.559s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.611s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[5.613s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.728s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[5.728s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.729s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.729s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[5.741s] -- Found PythonExtra: .so  
+[5.828s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.967s] -- Added test 'lint_cmake' to check CMake code style
+[5.967s] -- Added test 'xmllint' to check XML markup files
+[5.968s] -- Configuring done
+[5.987s] -- Generating done
+[5.994s] -- Build files have been written to: /home/zengine/vnav_ws/src/build/tesse_msgs
+[6.005s] Invoked command in '/home/zengine/vnav_ws/src/build/tesse_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zengine/vnav_ws/src/lab3/lab3/tesse_msgs -DCMAKE_INSTALL_PREFIX=/home/zengine/vnav_ws/src/install/tesse_msgs
+[6.006s] Invoking command in '/home/zengine/vnav_ws/src/build/tesse_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zengine/vnav_ws/src/build/tesse_msgs -- -j20 -l20
+[6.081s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.087s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.091s] [  3%] Built target ament_cmake_python_copy_tesse_msgs
+[6.223s] running egg_info
+[6.223s] creating tesse_msgs.egg-info
+[6.223s] writing tesse_msgs.egg-info/PKG-INFO
+[6.224s] writing dependency_links to tesse_msgs.egg-info/dependency_links.txt
+[6.224s] writing top-level names to tesse_msgs.egg-info/top_level.txt
+[6.224s] writing manifest file 'tesse_msgs.egg-info/SOURCES.txt'
+[6.225s] reading manifest file 'tesse_msgs.egg-info/SOURCES.txt'
+[6.225s] writing manifest file 'tesse_msgs.egg-info/SOURCES.txt'
+[6.250s] [  3%] Built target ament_cmake_python_build_tesse_msgs_egg
+[6.477s] [  3%] Built target tesse_msgs__cpp
+[6.485s] [  7%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.485s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.485s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.495s] [ 10%] [32mBuilding C object CMakeFiles/tesse_msgs__rosidl_generator_c.dir/rosidl_generator_c/tesse_msgs/msg/detail/collision_stats__functions.c.o[0m
+[6.498s] [ 14%] [32mBuilding C object CMakeFiles/tesse_msgs__rosidl_generator_c.dir/rosidl_generator_c/tesse_msgs/srv/detail/object_spawn_request_service__functions.c.o[0m
+[6.500s] [ 14%] [32mBuilding C object CMakeFiles/tesse_msgs__rosidl_generator_c.dir/rosidl_generator_c/tesse_msgs/srv/detail/scene_request_service__functions.c.o[0m
+[6.500s] [ 16%] [32mBuilding C object CMakeFiles/tesse_msgs__rosidl_generator_c.dir/rosidl_generator_c/tesse_msgs/srv/detail/reposition_request_service__functions.c.o[0m
+[6.635s] [ 18%] [32m[1mLinking C shared library libtesse_msgs__rosidl_generator_c.so[0m
+[6.715s] [ 18%] Built target tesse_msgs__rosidl_generator_c
+[6.735s] [ 20%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.755s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.755s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.981s] [ 25%] [32mBuilding CXX object CMakeFiles/tesse_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tesse_msgs/srv/detail/reposition_request_service__type_support.cpp.o[0m
+[6.983s] [ 27%] [32mBuilding CXX object CMakeFiles/tesse_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tesse_msgs/srv/detail/scene_request_service__type_support.cpp.o[0m
+[6.988s] [ 29%] [32mBuilding CXX object CMakeFiles/tesse_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tesse_msgs/msg/detail/collision_stats__type_support.cpp.o[0m
+[6.991s] [ 30%] [32mBuilding CXX object CMakeFiles/tesse_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tesse_msgs/srv/detail/object_spawn_request_service__type_support.cpp.o[0m
+[6.997s] [ 32%] [32mBuilding CXX object CMakeFiles/tesse_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tesse_msgs/srv/scene_request_service__type_support.cpp.o[0m
+[7.002s] [ 34%] [32mBuilding CXX object CMakeFiles/tesse_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tesse_msgs/srv/object_spawn_request_service__type_support.cpp.o[0m
+[7.004s] [ 36%] [32mBuilding CXX object CMakeFiles/tesse_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tesse_msgs/srv/reposition_request_service__type_support.cpp.o[0m
+[7.005s] [ 38%] [32mBuilding CXX object CMakeFiles/tesse_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tesse_msgs/msg/collision_stats__type_support.cpp.o[0m
+[7.088s] [ 41%] [32mBuilding CXX object CMakeFiles/tesse_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tesse_msgs/msg/detail/dds_fastrtps/collision_stats__type_support.cpp.o[0m
+[7.088s] [ 41%] [32mBuilding CXX object CMakeFiles/tesse_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tesse_msgs/srv/detail/dds_fastrtps/reposition_request_service__type_support.cpp.o[0m
+[7.089s] [ 43%] [32mBuilding CXX object CMakeFiles/tesse_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tesse_msgs/srv/detail/dds_fastrtps/object_spawn_request_service__type_support.cpp.o[0m
+[7.093s] [ 45%] [32mBuilding CXX object CMakeFiles/tesse_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tesse_msgs/srv/detail/dds_fastrtps/scene_request_service__type_support.cpp.o[0m
+[7.310s] [ 47%] [32m[1mLinking CXX shared library libtesse_msgs__rosidl_typesupport_cpp.so[0m
+[7.334s] [ 49%] [32mBuilding CXX object CMakeFiles/tesse_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tesse_msgs/srv/object_spawn_request_service__type_support.cpp.o[0m
+[7.334s] [ 50%] [32mBuilding CXX object CMakeFiles/tesse_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tesse_msgs/msg/collision_stats__type_support.cpp.o[0m
+[7.338s] [ 52%] [32mBuilding CXX object CMakeFiles/tesse_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tesse_msgs/srv/reposition_request_service__type_support.cpp.o[0m
+[7.341s] [ 54%] [32mBuilding CXX object CMakeFiles/tesse_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tesse_msgs/srv/scene_request_service__type_support.cpp.o[0m
+[7.359s] [ 56%] [32mBuilding C object CMakeFiles/tesse_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tesse_msgs/msg/detail/collision_stats__type_support.c.o[0m
+[7.364s] [ 58%] [32mBuilding C object CMakeFiles/tesse_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tesse_msgs/srv/detail/object_spawn_request_service__type_support.c.o[0m
+[7.371s] [ 60%] [32mBuilding C object CMakeFiles/tesse_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tesse_msgs/srv/detail/scene_request_service__type_support.c.o[0m
+[7.380s] [ 61%] [32mBuilding C object CMakeFiles/tesse_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tesse_msgs/srv/detail/reposition_request_service__type_support.c.o[0m
+[7.390s] [ 61%] Built target tesse_msgs__rosidl_typesupport_cpp
+[7.390s] [ 63%] [32m[1mLinking CXX shared library libtesse_msgs__rosidl_typesupport_c.so[0m
+[7.419s] [ 65%] [32m[1mLinking C shared library libtesse_msgs__rosidl_typesupport_introspection_c.so[0m
+[7.421s] [ 67%] [32mBuilding CXX object CMakeFiles/tesse_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tesse_msgs/srv/detail/reposition_request_service__type_support_c.cpp.o[0m
+[7.421s] [ 69%] [32mBuilding CXX object CMakeFiles/tesse_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tesse_msgs/msg/detail/collision_stats__type_support_c.cpp.o[0m
+[7.421s] [ 70%] [32mBuilding CXX object CMakeFiles/tesse_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tesse_msgs/srv/detail/object_spawn_request_service__type_support_c.cpp.o[0m
+[7.421s] [ 72%] [32mBuilding CXX object CMakeFiles/tesse_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tesse_msgs/srv/detail/scene_request_service__type_support_c.cpp.o[0m
+[7.430s] [ 72%] Built target tesse_msgs__rosidl_typesupport_c
+[7.452s] [ 72%] Built target tesse_msgs__rosidl_typesupport_introspection_c
+[7.460s] [ 74%] [32m[1mLinking CXX shared library libtesse_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[7.502s] [ 76%] [32m[1mLinking CXX shared library libtesse_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.581s] [ 76%] Built target tesse_msgs__rosidl_typesupport_fastrtps_cpp
+[7.581s] [ 76%] Built target tesse_msgs__rosidl_typesupport_introspection_cpp
+[7.657s] [ 78%] [32m[1mLinking CXX shared library libtesse_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[7.789s] [ 78%] Built target tesse_msgs__rosidl_typesupport_fastrtps_c
+[7.809s] [ 78%] Built target tesse_msgs
+[7.847s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.631s] [ 80%] Built target tesse_msgs__py
+[8.642s] [ 83%] [32mBuilding C object CMakeFiles/tesse_msgs__rosidl_generator_py.dir/rosidl_generator_py/tesse_msgs/srv/_scene_request_service_s.c.o[0m
+[8.642s] [ 83%] [32mBuilding C object CMakeFiles/tesse_msgs__rosidl_generator_py.dir/rosidl_generator_py/tesse_msgs/srv/_reposition_request_service_s.c.o[0m
+[8.643s] [ 85%] [32mBuilding C object CMakeFiles/tesse_msgs__rosidl_generator_py.dir/rosidl_generator_py/tesse_msgs/msg/_collision_stats_s.c.o[0m
+[8.643s] [ 87%] [32mBuilding C object CMakeFiles/tesse_msgs__rosidl_generator_py.dir/rosidl_generator_py/tesse_msgs/srv/_object_spawn_request_service_s.c.o[0m
+[8.977s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/tesse_msgs/libtesse_msgs__rosidl_generator_py.so[0m
+[9.002s] [ 89%] Built target tesse_msgs__rosidl_generator_py
+[9.012s] [ 90%] [32mBuilding C object CMakeFiles/tesse_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tesse_msgs/_tesse_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[9.015s] [ 94%] [32mBuilding C object CMakeFiles/tesse_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tesse_msgs/_tesse_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.015s] [ 94%] [32mBuilding C object CMakeFiles/tesse_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tesse_msgs/_tesse_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.082s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/tesse_msgs/tesse_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.082s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/tesse_msgs/tesse_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.083s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tesse_msgs/tesse_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.102s] [100%] Built target tesse_msgs__rosidl_typesupport_introspection_c__pyext
+[9.107s] [100%] Built target tesse_msgs__rosidl_typesupport_c__pyext
+[9.107s] [100%] Built target tesse_msgs__rosidl_typesupport_fastrtps_c__pyext
+[9.114s] Invoked command in '/home/zengine/vnav_ws/src/build/tesse_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zengine/vnav_ws/src/build/tesse_msgs -- -j20 -l20
+[9.115s] Invoking command in '/home/zengine/vnav_ws/src/build/tesse_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zengine/vnav_ws/src/build/tesse_msgs
+[9.119s] -- Install configuration: ""
+[9.119s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/ament_index/resource_index/rosidl_interfaces/tesse_msgs
+[9.119s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs
+[9.119s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv
+[9.119s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/object_spawn_request_service.h
+[9.119s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/reposition_request_service.h
+[9.119s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail
+[9.119s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/object_spawn_request_service__type_support.h
+[9.119s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/reposition_request_service__functions.c
+[9.119s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/scene_request_service__functions.c
+[9.119s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/object_spawn_request_service__struct.h
+[9.119s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/reposition_request_service__struct.h
+[9.119s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/object_spawn_request_service__functions.h
+[9.119s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/object_spawn_request_service__functions.c
+[9.119s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/reposition_request_service__type_support.h
+[9.119s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/scene_request_service__struct.h
+[9.119s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/scene_request_service__functions.h
+[9.119s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/reposition_request_service__functions.h
+[9.119s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/scene_request_service__type_support.h
+[9.119s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/scene_request_service.h
+[9.119s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg
+[9.120s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/collision_stats.h
+[9.120s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/detail
+[9.120s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/detail/collision_stats__struct.h
+[9.120s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/detail/collision_stats__type_support.h
+[9.120s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/detail/collision_stats__functions.h
+[9.120s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/detail/collision_stats__functions.c
+[9.120s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/rosidl_generator_c__visibility_control.h
+[9.120s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/environment/library_path.sh
+[9.120s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/environment/library_path.dsv
+[9.120s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/lib/libtesse_msgs__rosidl_generator_c.so
+[9.120s] -- Set runtime path of "/home/zengine/vnav_ws/src/install/tesse_msgs/lib/libtesse_msgs__rosidl_generator_c.so" to ""
+[9.120s] -- Up-to-date: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs
+[9.120s] -- Up-to-date: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv
+[9.120s] -- Up-to-date: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail
+[9.120s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/reposition_request_service__rosidl_typesupport_fastrtps_c.h
+[9.120s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/scene_request_service__rosidl_typesupport_fastrtps_c.h
+[9.120s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/object_spawn_request_service__rosidl_typesupport_fastrtps_c.h
+[9.120s] -- Up-to-date: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg
+[9.120s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.120s] -- Up-to-date: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/detail
+[9.120s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/detail/collision_stats__rosidl_typesupport_fastrtps_c.h
+[9.120s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/lib/libtesse_msgs__rosidl_typesupport_fastrtps_c.so
+[9.120s] -- Set runtime path of "/home/zengine/vnav_ws/src/install/tesse_msgs/lib/libtesse_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[9.120s] -- Up-to-date: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs
+[9.120s] -- Up-to-date: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv
+[9.120s] -- Up-to-date: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail
+[9.120s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/reposition_request_service__struct.hpp
+[9.120s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/object_spawn_request_service__traits.hpp
+[9.120s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/object_spawn_request_service__builder.hpp
+[9.121s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/object_spawn_request_service__struct.hpp
+[9.121s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/reposition_request_service__builder.hpp
+[9.121s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/reposition_request_service__traits.hpp
+[9.121s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/reposition_request_service__type_support.hpp
+[9.121s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/scene_request_service__builder.hpp
+[9.121s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/scene_request_service__struct.hpp
+[9.121s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/scene_request_service__traits.hpp
+[9.121s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/object_spawn_request_service__type_support.hpp
+[9.121s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/scene_request_service__type_support.hpp
+[9.121s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/scene_request_service.hpp
+[9.121s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/reposition_request_service.hpp
+[9.121s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/object_spawn_request_service.hpp
+[9.121s] -- Up-to-date: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg
+[9.121s] -- Up-to-date: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/detail
+[9.121s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/detail/collision_stats__traits.hpp
+[9.121s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/detail/collision_stats__type_support.hpp
+[9.121s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/detail/collision_stats__builder.hpp
+[9.121s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/detail/collision_stats__struct.hpp
+[9.121s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/collision_stats.hpp
+[9.121s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[9.121s] -- Up-to-date: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs
+[9.121s] -- Up-to-date: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv
+[9.121s] -- Up-to-date: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail
+[9.121s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/object_spawn_request_service__rosidl_typesupport_fastrtps_cpp.hpp
+[9.121s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/reposition_request_service__rosidl_typesupport_fastrtps_cpp.hpp
+[9.121s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/dds_fastrtps
+[9.121s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/scene_request_service__rosidl_typesupport_fastrtps_cpp.hpp
+[9.121s] -- Up-to-date: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg
+[9.121s] -- Up-to-date: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/detail
+[9.121s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/detail/collision_stats__rosidl_typesupport_fastrtps_cpp.hpp
+[9.121s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/detail/dds_fastrtps
+[9.121s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.121s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/lib/libtesse_msgs__rosidl_typesupport_fastrtps_cpp.so
+[9.122s] -- Set runtime path of "/home/zengine/vnav_ws/src/install/tesse_msgs/lib/libtesse_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.122s] -- Up-to-date: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs
+[9.122s] -- Up-to-date: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv
+[9.122s] -- Up-to-date: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail
+[9.122s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/reposition_request_service__type_support.c
+[9.122s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/scene_request_service__type_support.c
+[9.122s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/scene_request_service__rosidl_typesupport_introspection_c.h
+[9.122s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/reposition_request_service__rosidl_typesupport_introspection_c.h
+[9.122s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/object_spawn_request_service__rosidl_typesupport_introspection_c.h
+[9.122s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/object_spawn_request_service__type_support.c
+[9.122s] -- Up-to-date: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg
+[9.122s] -- Up-to-date: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/detail
+[9.122s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/detail/collision_stats__type_support.c
+[9.122s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/detail/collision_stats__rosidl_typesupport_introspection_c.h
+[9.122s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.122s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/lib/libtesse_msgs__rosidl_typesupport_introspection_c.so
+[9.122s] -- Set runtime path of "/home/zengine/vnav_ws/src/install/tesse_msgs/lib/libtesse_msgs__rosidl_typesupport_introspection_c.so" to ""
+[9.122s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/lib/libtesse_msgs__rosidl_typesupport_c.so
+[9.122s] -- Set runtime path of "/home/zengine/vnav_ws/src/install/tesse_msgs/lib/libtesse_msgs__rosidl_typesupport_c.so" to ""
+[9.122s] -- Up-to-date: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs
+[9.122s] -- Up-to-date: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv
+[9.122s] -- Up-to-date: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail
+[9.122s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/reposition_request_service__type_support.cpp
+[9.122s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/object_spawn_request_service__rosidl_typesupport_introspection_cpp.hpp
+[9.122s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/scene_request_service__rosidl_typesupport_introspection_cpp.hpp
+[9.122s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/reposition_request_service__rosidl_typesupport_introspection_cpp.hpp
+[9.122s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/object_spawn_request_service__type_support.cpp
+[9.122s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/srv/detail/scene_request_service__type_support.cpp
+[9.122s] -- Up-to-date: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg
+[9.123s] -- Up-to-date: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/detail
+[9.123s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/detail/collision_stats__rosidl_typesupport_introspection_cpp.hpp
+[9.123s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/include/tesse_msgs/tesse_msgs/msg/detail/collision_stats__type_support.cpp
+[9.123s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/lib/libtesse_msgs__rosidl_typesupport_introspection_cpp.so
+[9.123s] -- Set runtime path of "/home/zengine/vnav_ws/src/install/tesse_msgs/lib/libtesse_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[9.123s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/lib/libtesse_msgs__rosidl_typesupport_cpp.so
+[9.123s] -- Set runtime path of "/home/zengine/vnav_ws/src/install/tesse_msgs/lib/libtesse_msgs__rosidl_typesupport_cpp.so" to ""
+[9.123s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/environment/pythonpath.sh
+[9.123s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/environment/pythonpath.dsv
+[9.123s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs-0.0.0-py3.10.egg-info
+[9.123s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[9.123s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[9.123s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[9.123s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[9.123s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs
+[9.123s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/libtesse_msgs__rosidl_generator_py.so
+[9.123s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/tesse_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.123s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/__init__.py
+[9.123s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/tesse_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.123s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/srv
+[9.123s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/srv/_object_spawn_request_service.py
+[9.123s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/srv/__init__.py
+[9.123s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/srv/_object_spawn_request_service_s.c
+[9.123s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/srv/_reposition_request_service_s.c
+[9.123s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/srv/_scene_request_service_s.c
+[9.123s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/srv/_scene_request_service.py
+[9.124s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/srv/_reposition_request_service.py
+[9.124s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/msg
+[9.124s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/msg/_collision_stats.py
+[9.124s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/msg/__init__.py
+[9.124s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/msg/_collision_stats_s.c
+[9.124s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/_tesse_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.124s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/tesse_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.124s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/_tesse_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[9.124s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/_tesse_msgs_s.ep.rosidl_typesupport_c.c
+[9.147s] Listing '/home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs'...
+[9.147s] Compiling '/home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/__init__.py'...
+[9.147s] Listing '/home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/msg'...
+[9.147s] Compiling '/home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/msg/__init__.py'...
+[9.147s] Compiling '/home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/msg/_collision_stats.py'...
+[9.147s] Listing '/home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/srv'...
+[9.147s] Compiling '/home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/srv/__init__.py'...
+[9.147s] Compiling '/home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/srv/_object_spawn_request_service.py'...
+[9.147s] Compiling '/home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/srv/_reposition_request_service.py'...
+[9.147s] Compiling '/home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/srv/_scene_request_service.py'...
+[9.149s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/tesse_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.150s] -- Set runtime path of "/home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/tesse_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.150s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/tesse_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.150s] -- Set runtime path of "/home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/tesse_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.150s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/tesse_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.150s] -- Set runtime path of "/home/zengine/vnav_ws/src/install/tesse_msgs/local/lib/python3.10/dist-packages/tesse_msgs/tesse_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.150s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/lib/libtesse_msgs__rosidl_generator_py.so
+[9.150s] -- Set runtime path of "/home/zengine/vnav_ws/src/install/tesse_msgs/lib/libtesse_msgs__rosidl_generator_py.so" to ""
+[9.150s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/msg/CollisionStats.idl
+[9.150s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/srv/ObjectSpawnRequestService.idl
+[9.150s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/srv/RepositionRequestService.idl
+[9.150s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/srv/SceneRequestService.idl
+[9.150s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/msg/CollisionStats.msg
+[9.150s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/srv/ObjectSpawnRequestService.srv
+[9.150s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/srv/ObjectSpawnRequestService_Request.msg
+[9.150s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/srv/ObjectSpawnRequestService_Response.msg
+[9.150s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/srv/RepositionRequestService.srv
+[9.150s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/srv/RepositionRequestService_Request.msg
+[9.151s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/srv/RepositionRequestService_Response.msg
+[9.151s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/srv/SceneRequestService.srv
+[9.151s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/srv/SceneRequestService_Request.msg
+[9.151s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/srv/SceneRequestService_Response.msg
+[9.151s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/ament_index/resource_index/package_run_dependencies/tesse_msgs
+[9.151s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/ament_index/resource_index/parent_prefix_path/tesse_msgs
+[9.151s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/environment/ament_prefix_path.sh
+[9.151s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/environment/ament_prefix_path.dsv
+[9.151s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/environment/path.sh
+[9.151s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/environment/path.dsv
+[9.151s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/local_setup.bash
+[9.151s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/local_setup.sh
+[9.151s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/local_setup.zsh
+[9.151s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/local_setup.dsv
+[9.151s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/package.dsv
+[9.151s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/ament_index/resource_index/packages/tesse_msgs
+[9.151s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/cmake/export_tesse_msgs__rosidl_generator_cExport.cmake
+[9.151s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/cmake/export_tesse_msgs__rosidl_generator_cExport-noconfig.cmake
+[9.151s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/cmake/export_tesse_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[9.151s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/cmake/export_tesse_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.151s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/cmake/export_tesse_msgs__rosidl_generator_cppExport.cmake
+[9.151s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/cmake/export_tesse_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.151s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/cmake/export_tesse_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.152s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/cmake/tesse_msgs__rosidl_typesupport_introspection_cExport.cmake
+[9.152s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/cmake/tesse_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.152s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/cmake/tesse_msgs__rosidl_typesupport_cExport.cmake
+[9.152s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/cmake/tesse_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[9.152s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/cmake/tesse_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[9.152s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/cmake/tesse_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.152s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/cmake/tesse_msgs__rosidl_typesupport_cppExport.cmake
+[9.152s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/cmake/tesse_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[9.152s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/cmake/export_tesse_msgs__rosidl_generator_pyExport.cmake
+[9.152s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/cmake/export_tesse_msgs__rosidl_generator_pyExport-noconfig.cmake
+[9.152s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/cmake/rosidl_cmake-extras.cmake
+[9.152s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.152s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.152s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[9.152s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[9.152s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.152s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.152s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/cmake/tesse_msgsConfig.cmake
+[9.152s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/cmake/tesse_msgsConfig-version.cmake
+[9.152s] -- Installing: /home/zengine/vnav_ws/src/install/tesse_msgs/share/tesse_msgs/package.xml
+[9.154s] Invoked command in '/home/zengine/vnav_ws/src/build/tesse_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zengine/vnav_ws/src/build/tesse_msgs

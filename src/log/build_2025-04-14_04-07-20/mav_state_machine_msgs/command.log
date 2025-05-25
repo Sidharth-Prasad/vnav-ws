@@ -1,0 +1,6 @@
+Invoking command in '/home/zengine/vnav_ws/src/build/mav_state_machine_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zengine/vnav_ws/src/mav_comm/mav_state_machine_msgs -DCMAKE_INSTALL_PREFIX=/home/zengine/vnav_ws/src/install/mav_state_machine_msgs
+Invoked command in '/home/zengine/vnav_ws/src/build/mav_state_machine_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zengine/vnav_ws/src/mav_comm/mav_state_machine_msgs -DCMAKE_INSTALL_PREFIX=/home/zengine/vnav_ws/src/install/mav_state_machine_msgs
+Invoking command in '/home/zengine/vnav_ws/src/build/mav_state_machine_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zengine/vnav_ws/src/build/mav_state_machine_msgs -- -j20 -l20
+Invoked command in '/home/zengine/vnav_ws/src/build/mav_state_machine_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zengine/vnav_ws/src/build/mav_state_machine_msgs -- -j20 -l20
+Invoking command in '/home/zengine/vnav_ws/src/build/mav_state_machine_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zengine/vnav_ws/src/build/mav_state_machine_msgs
+Invoked command in '/home/zengine/vnav_ws/src/build/mav_state_machine_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zengine/vnav_ws/src/build/mav_state_machine_msgs

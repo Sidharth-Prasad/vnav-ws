@@ -1,0 +1,36 @@
+[1.153s] Invoking command in '/home/zengine/vnav_ws/src/lab3/lab3/tesse-interface': PYTHONPATH=/home/zengine/vnav_ws/src/build/tesse/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zengine/vnav_ws/src/install/tesse/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../vnav_ws/src/build/tesse build --build-base /home/zengine/vnav_ws/src/build/tesse/build install --record /home/zengine/vnav_ws/src/build/tesse/install.log --single-version-externally-managed
+[1.268s] running egg_info
+[1.268s] creating ../../../vnav_ws/src/build/tesse/tesse.egg-info
+[1.268s] writing ../../../vnav_ws/src/build/tesse/tesse.egg-info/PKG-INFO
+[1.268s] writing dependency_links to ../../../vnav_ws/src/build/tesse/tesse.egg-info/dependency_links.txt
+[1.268s] writing requirements to ../../../vnav_ws/src/build/tesse/tesse.egg-info/requires.txt
+[1.268s] writing top-level names to ../../../vnav_ws/src/build/tesse/tesse.egg-info/top_level.txt
+[1.269s] writing manifest file '../../../vnav_ws/src/build/tesse/tesse.egg-info/SOURCES.txt'
+[1.269s] reading manifest file '../../../vnav_ws/src/build/tesse/tesse.egg-info/SOURCES.txt'
+[1.269s] adding license file 'LICENSE'
+[1.270s] writing manifest file '../../../vnav_ws/src/build/tesse/tesse.egg-info/SOURCES.txt'
+[1.270s] running build
+[1.270s] running build_py
+[1.270s] creating /home/zengine/vnav_ws/src/build/tesse/build
+[1.270s] creating /home/zengine/vnav_ws/src/build/tesse/build/lib
+[1.270s] creating /home/zengine/vnav_ws/src/build/tesse/build/lib/tesse
+[1.270s] copying src/tesse/__init__.py -> /home/zengine/vnav_ws/src/build/tesse/build/lib/tesse
+[1.270s] copying src/tesse/env.py -> /home/zengine/vnav_ws/src/build/tesse/build/lib/tesse
+[1.291s] copying src/tesse/utils.py -> /home/zengine/vnav_ws/src/build/tesse/build/lib/tesse
+[1.291s] copying src/tesse/msgs.py -> /home/zengine/vnav_ws/src/build/tesse/build/lib/tesse
+[1.298s] running install
+[1.298s] running install_lib
+[1.299s] creating /home/zengine/vnav_ws/src/install/tesse/lib/python3.10/site-packages/tesse
+[1.299s] copying /home/zengine/vnav_ws/src/build/tesse/build/lib/tesse/__init__.py -> /home/zengine/vnav_ws/src/install/tesse/lib/python3.10/site-packages/tesse
+[1.322s] copying /home/zengine/vnav_ws/src/build/tesse/build/lib/tesse/env.py -> /home/zengine/vnav_ws/src/install/tesse/lib/python3.10/site-packages/tesse
+[1.322s] copying /home/zengine/vnav_ws/src/build/tesse/build/lib/tesse/utils.py -> /home/zengine/vnav_ws/src/install/tesse/lib/python3.10/site-packages/tesse
+[1.322s] copying /home/zengine/vnav_ws/src/build/tesse/build/lib/tesse/msgs.py -> /home/zengine/vnav_ws/src/install/tesse/lib/python3.10/site-packages/tesse
+[1.323s] byte-compiling /home/zengine/vnav_ws/src/install/tesse/lib/python3.10/site-packages/tesse/__init__.py to __init__.cpython-310.pyc
+[1.324s] byte-compiling /home/zengine/vnav_ws/src/install/tesse/lib/python3.10/site-packages/tesse/env.py to env.cpython-310.pyc
+[1.326s] byte-compiling /home/zengine/vnav_ws/src/install/tesse/lib/python3.10/site-packages/tesse/utils.py to utils.cpython-310.pyc
+[1.326s] byte-compiling /home/zengine/vnav_ws/src/install/tesse/lib/python3.10/site-packages/tesse/msgs.py to msgs.cpython-310.pyc
+[1.331s] running install_egg_info
+[1.333s] Copying ../../../vnav_ws/src/build/tesse/tesse.egg-info to /home/zengine/vnav_ws/src/install/tesse/lib/python3.10/site-packages/tesse-0.1.2-py3.10.egg-info
+[1.333s] running install_scripts
+[1.345s] writing list of installed files to '/home/zengine/vnav_ws/src/build/tesse/install.log'
+[1.357s] Invoked command in '/home/zengine/vnav_ws/src/lab3/lab3/tesse-interface' returned '0': PYTHONPATH=/home/zengine/vnav_ws/src/build/tesse/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zengine/vnav_ws/src/install/tesse/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../vnav_ws/src/build/tesse build --build-base /home/zengine/vnav_ws/src/build/tesse/build install --record /home/zengine/vnav_ws/src/build/tesse/install.log --single-version-externally-managed

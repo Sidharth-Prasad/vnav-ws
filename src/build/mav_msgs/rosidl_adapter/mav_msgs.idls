@@ -1,0 +1,8 @@
+/home/zengine/vnav_ws/src/build/mav_msgs/rosidl_adapter/mav_msgs:msg/Actuators.idl
+/home/zengine/vnav_ws/src/build/mav_msgs/rosidl_adapter/mav_msgs:msg/AttitudeThrust.idl
+/home/zengine/vnav_ws/src/build/mav_msgs/rosidl_adapter/mav_msgs:msg/FilteredSensorData.idl
+/home/zengine/vnav_ws/src/build/mav_msgs/rosidl_adapter/mav_msgs:msg/GpsWaypoint.idl
+/home/zengine/vnav_ws/src/build/mav_msgs/rosidl_adapter/mav_msgs:msg/RateThrust.idl
+/home/zengine/vnav_ws/src/build/mav_msgs/rosidl_adapter/mav_msgs:msg/RollPitchYawrateThrust.idl
+/home/zengine/vnav_ws/src/build/mav_msgs/rosidl_adapter/mav_msgs:msg/Status.idl
+/home/zengine/vnav_ws/src/build/mav_msgs/rosidl_adapter/mav_msgs:msg/TorqueThrust.idl
